@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Les poneys d'Eva</title>
+  <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!--header-->
+    <header class="py-4">
+      <nav class="navbar navbar-expand-md fixed-top navbar-light bg-info">
+
+        <div class="container">
+
+          <a class="navbar-brand text-uppercase fw-bold" href="#lesponeyd'Eva">
+            <img src="../IMG/poneys/header-eva.jpg" alt="Moonlight" width="100" height="100"
+              class="d-inline-block align-text-center" data-bs-toggle="tooltip" data-bs-placement="bottom"
+              data-bs-title="Eva et les poneys">
+            <span class="bg-dark bg-gradient p-1 rounded-3 fw-bold text-light">LES PONEYS D'EVA
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="../HTML/index.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../HTML/evenements.html">Évènements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#lesponeysd'Eva">À propos de moi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#blog">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--fin header-->
+
+    <main>
+
+    </main>
+    <footer class="fixed-bottom bg-info">
+      <div class="container py-5">
+        <div class="row gy-4 align-items-center">
+          <div class="col-12 col-md-4">
+            <a class="navbar-brand text-dark text-uppercase fw-bold" href="#">
+              <span class="bg-dark bg-gradient p-1 rounded-3 text-light">Les poneys d'Eva</span>
+            </a>
+          </div>
+          <div class="col-12 col-md-4 text-md-center">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#" class="text-decoration-none text-dark" data-bs-toggle="modal"
+                  data-bs-target="#mentionsLegales">Mentions légales</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 text-md-end">
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="LinkedIn">
+                  <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Instagram">
+                  <i class="fab fa-instagram-square fa-2x"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Twitter">
+                  <i class="fab fa-twitter-square fa-2x"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="mentionsLegales" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Mentions Légales</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus leo, volutpat vitae
+                mi
+                ultrices,
+                sollicitudin
+                blandit dui. Mauris ultricies iaculis leo id consequat. Class aptent taciti
+                sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed posuere risus viverra ornare
+                porttitor. Nullam egestas nec libero eget sagittis.
+                Phasellus vulputate ante a vulputate vehicula. Suspendisse nec dolor ante.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--fin modal-->-->
+
+      <!--script JS-->
+      <script src="../JS/bootstrap.bundle.min.js"></script>
+      <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+      </script>
+    </footer>
+  </body>
+
+</html>
