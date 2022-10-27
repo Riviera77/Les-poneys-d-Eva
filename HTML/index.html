@@ -59,7 +59,7 @@
     <section class="bloc1 py-5">
       <div class="container">
         <!--bloc1__heading-->
-        <h2 class="pb-1 mb-0 text-center">L'écurie comme si vous y étiez</h2>
+        <h2 class="pb-2 mb-0 text-center">L'écurie comme si vous y étiez</h2>
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -71,13 +71,13 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="../IMG/poneys/poneys-chevaux.jpg" class="d-block w-100 h-50" alt="poneys et chevaux">
+              <img src="../IMG/poneys/poneys-chevaux.jpg" class="d-block w-100" alt="poneys et chevaux">
             </div>
             <div class="carousel-item">
-              <img src="../IMG/poneys/poneys-prairie.jpg" class="d-block w-100 h-50" alt="poneys dans la prairie">
+              <img src="../IMG/poneys/poneys-prairie.jpg" class="d-block w-100" alt="poneys dans la prairie">
             </div>
             <div class="carousel-item">
-              <img src="../IMG/poneys/stalle.jpg" class="d-block w-100 h-50" alt="stalle">
+              <img src="../IMG/poneys/stalle.jpg" class="d-block w-100" alt="stalle">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -93,8 +93,8 @@
         </div>
       </div>
     </section>
-
-    <section class="bloc2 py-5 bg-light">
+    <!--bloc2 text-->
+    <section class="py-5 bg-light">
       <div class="container">
         <h2 class="mb-0">Vous souhaitez organiser un anniversaire?</h2>
         <h3 class="fw-light fs-5">ou encore une balade, une sortie pédagogique?</h3>
@@ -105,7 +105,7 @@
           </div>
           <div class="col-12 offset-md-1 col-md-6">
 
-            <!-- Formulaire -->
+            <!--bloc2 Formulaire -->
             <form class="row">
               <div class="col-6 my-2">
                 <label for="firstname" class="form-label">Prénom</label>
@@ -131,15 +131,6 @@
         </div>
       </div>
     </section>
-
-    <section class="bloc2 py-5">
-
-    </section>
-    <div class="body__bloc2">
-      <div class="bloc2__text"></div>
-      <div class="bloc2__form"></div>
-    </div>
-    </div>
   </main>
 
   <footer class="bg-info">
@@ -156,6 +147,11 @@
               <a href="#" class="text-decoration-none text-dark" data-bs-toggle="modal"
                 data-bs-target="#mentionsLegales">Mentions
                 légales</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-dark" data-bs-toggle="modal"
+                data-bs-target="#ounoustrouver">Où nous
+                trouver</a>
             </li>
           </ul>
         </div>
@@ -178,7 +174,7 @@
       </div>
     </div>
 
-    <!-- Modal -->
+    <!-- Modal mentions légales-->
     <div class="modal fade" id="mentionsLegales" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
         <div class="modal-content">
@@ -206,6 +202,27 @@
         </div>
       </div>
     </div>
+    <!--fin modal-->
+    <!-- Modal où nous trouver-->
+    <div class="modal fade" id="ounoustrouver" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Où nous trouver</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              30, rue des Vosges
+            </p>
+            <p>
+              77000 Marne la Vallée
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--fin modal-->
 
     <!--script js-->
     <script src="../JS/bootstrap.bundle.min.js"></script>
