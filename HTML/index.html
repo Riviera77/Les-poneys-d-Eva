@@ -40,12 +40,13 @@
             <li class="nav-item">
               <a class="nav-link active" href="../HTML/evenements.html">Évènements</a>
             </li>
-
             <li class="nav-item">
-              <a class="nav-link disabled" href="#Lesponeysd'Eva">À propos de moi ?</a>
+              <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                data-bs-title="En cours de construction" href="#Àproposdemoi">À propos de moi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#Blog">Blog</a>
+              <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                data-bs-title="En cours de construction" href="#blog">Blog</a>
             </li>
           </ul>
         </div>
@@ -57,9 +58,9 @@
 
   <main class="bg-light">
     <!--bloc1-->
-    <section class="bloc1 py-5">
+    <section class="bloc1 my-5 py-5">
       <div class="container">
-        <h2 class="pb-2 mb-0 text-center">L'écurie comme si vous y étiez</h2>
+        <h2 class="gy-4 pb-2 mb-0 text-center">L'écurie comme si vous y étiez</h2>
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -69,14 +70,14 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
               aria-label="Slide 3"></button>
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="../IMG/poneys/poneys-chevaux.jpg" class="d-block w-100 cover" alt="poneys et chevaux">
+          <div class="carousel-inner h-100">
+            <div class="carousel-item h-100 active" data-bs-interval="10000">
+              <img src="../IMG/poneys/poneys-chevaux.jpg" class="d-block w-100" alt="poneys et chevaux">
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item h-100" data-bs-interval="2000">
               <img src="../IMG/poneys/poneys-prairie.jpg" class="d-block w-100" alt="poneys dans la prairie">
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item h-100" data-bs-interval="2000">
               <img src="../IMG/poneys/stalle.jpg" class="d-block w-100" alt="stalle">
             </div>
           </div>
@@ -151,8 +152,9 @@
                 légales</a>
             </li>
             <li>
-              <a href="#" class="text-decoration-none text-dark" data-bs-toggle="modal"
-                data-bs-target="#ounoustrouver">Où nous
+              <a class="text-decoration-none text-dark">© 2022 Lesponeyd'Eva</a> |
+              <a class="text-decoration-none text-dark" data-bs-toggle="modal" data-bs-target="#ounoustrouver"
+                href="#">Où nous
                 trouver</a>
             </li>
           </ul>
