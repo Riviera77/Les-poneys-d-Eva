@@ -13,7 +13,7 @@
   <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="bg-dark text-light">
   <!--header-->
   <header class="py-5">
     <nav class="navbar navbar-expand-md fixed-top navbar-light bg-info">
@@ -56,47 +56,53 @@
   </header>
   <!--end header-->
 
-  <main class="bg-light">
+  <main>
     <!--bloc1-->
     <section class="bloc1 my-5 py-5">
       <div class="container">
         <h2 class="gy-4 pb-2 mb-0 text-center">L'écurie comme si vous y étiez</h2>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
+        <div class="carousel">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner h-100">
+              <div class="carousel-item h-100 active" data-bs-interval="10000">
+                <img src="../IMG/poneys/img1-pexels-jan-laugesen-634613.jpg" class="d-block w-100"
+                  alt="img1-pexels-jan-laugesen">
+              </div>
+              <div class=" carousel-item h-100" data-bs-interval="2000">
+                <img src="../IMG/poneys/img2-pexels-anton-atanasov-213197.jpg" class="d-block w-100"
+                  alt="img2-pexels-anton-atanasov">
+              </div>
+              <div class="carousel-item h-100" data-bs-interval="2000">
+                <img src="../IMG/poneys/img3-pexels-bas-masseus-1203309.jpg" class="d-block w-100"
+                  alt="img3-pexels-bas-masseus">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <div class="carousel-inner h-100">
-            <div class="carousel-item h-100 active" data-bs-interval="10000">
-              <img src="../IMG/poneys/poneys-chevaux.jpg" class="d-block w-100" alt="poneys et chevaux">
-            </div>
-            <div class="carousel-item h-100" data-bs-interval="2000">
-              <img src="../IMG/poneys/poneys-prairie.jpg" class="d-block w-100" alt="poneys dans la prairie">
-            </div>
-            <div class="carousel-item h-100" data-bs-interval="2000">
-              <img src="../IMG/poneys/stalle.jpg" class="d-block w-100" alt="stalle">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
+
       </div>
     </section>
     <!--fin bloc1-->
     <!--bloc2 text-->
-    <section class="py-5 bg-light">
+    <section class="py-5">
       <div class="container">
         <h2 class="mb-0">Vous souhaitez organiser un anniversaire?</h2>
         <h3 class="fw-light fs-5">ou encore une balade, une sortie pédagogique?</h3>
