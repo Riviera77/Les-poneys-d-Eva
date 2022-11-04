@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="poneys, soigner, cours d'équuitation">
+  <meta name="description" content="Association à but non-lucratif. Adoptons et soignons les poneys 
+  pour leur donner un refuge et une seconde chance.">
+  <meta name="author" content="Riviera77">
   <title>Les poneys d'Eva</title>
   <link rel="stylesheet" href="./CSS/bootstrap.min.css">
   <link rel="stylesheet" href="./CSS/style.css">
@@ -13,7 +17,7 @@
   <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="bg-dark text-light">
+<body>
   <!--header-->
   <header class="py-5">
     <nav class="navbar navbar-expand-md fixed-top navbar-light bg-info">
@@ -56,11 +60,11 @@
   </header>
   <!--end header-->
 
-  <main>
+  <main class="bg-dark text-light">
     <!--bloc1-->
     <section class="bloc1 my-5 py-5">
-      <div class="container">
-        <h2 class="gy-4 pb-2 mb-0 text-center">L'écurie comme si vous y étiez</h2>
+      <div class="container bg-dark text-light">
+        <h2 class="gy-4 pb-2 mb-0 text-center ">L'écurie comme si vous y étiez</h2>
         <div class="carousel">
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
             <div class="carousel-indicators">
@@ -102,7 +106,7 @@
     </section>
     <!--fin bloc1-->
     <!--bloc2 text-->
-    <section class="py-5">
+    <section class="py-5 bg-dark text-light">
       <div class="container">
         <h2 class="mb-0">Vous souhaitez organiser un anniversaire?</h2>
         <h3 class="fw-light fs-5">ou encore une balade, une sortie pédagogique?</h3>
@@ -158,10 +162,9 @@
                 légales</a>
             </li>
             <li>
-              <a class="text-decoration-none text-dark">© 2022 Lesponeyd'Eva</a> |
+              <a class="text-decoration-none text-dark">© 2022 Lesponeyd'Eva | </a> 
               <a class="text-decoration-none text-dark" data-bs-toggle="modal" data-bs-target="#ounoustrouver"
-                href="#">Où nous
-                trouver</a>
+                href="#">Où nous trouver</a>
             </li>
           </ul>
         </div>
@@ -234,13 +237,11 @@
     </div>
     <!--fin modal-->
 
-    <!--script js-->
+    <!--script JS-->
     <script src="./JS/bootstrap.bundle.min.js"></script>
     <script>
-      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-        return new bootstrap.Tooltip(tooltipTriggerEl)
-      })
+      const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
     </script>
   </footer>
 </body>
