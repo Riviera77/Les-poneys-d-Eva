@@ -40,16 +40,26 @@
   z-index: 17;
 }
 
+.carousel img {
+  display:inline-block;
+  width: 500px;
+  height: 500px;
+  white-space:nowrap;
+  overflow:hidden;
+  object-fit: cover;
+  -o-object-fit: cover;
+}
+
 .img-cover {
   -o-object-fit: cover;
   object-fit: cover;
-  height: 250px;
+  height: auto;
 }
 
 .card img.card-img-top {
   -o-object-fit: cover;
   object-fit: cover;
-  height: 250px;
+  height: 300px;
   -o-object-position: top;
   object-position: top;
 }
